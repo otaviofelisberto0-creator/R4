@@ -1,10 +1,11 @@
-# Dashboard Conversao R4 Final
+# Dashboard Conversao R4 GZIP Operacional
 
-Pacote para GitHub Pages com:
-- dashboard responsivo;
-- conversao independente ND e BL;
-- analises, rankings, comparativos, analise diaria e acompanhamento mensal;
-- pagina Glossario com fontes, criterios e formulas;
-- pasta `dados` com manifesto inicial.
+Arquivos obrigatorios na raiz:
+- index.html
+- .nojekyll
+- README.md
+- dados/manifest.json
+- dados/ND-26-07.json.gz
+- dados/BL-26-07.json.gz
 
-Depois de gerar os JSONs mensais, envie-os para `dados/` e atualize `dados/manifest.json` com os nomes exatos.
+O dashboard tenta carregar automaticamente dados/manifest.json no GitHub Pages. Tambem permite selecionar localmente os dois GZIPs na pagina Upload para validacao antes da publicacao.
